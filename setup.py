@@ -58,7 +58,7 @@ if sys_version_info[:2] < (3, 4) or sys_platform == 'win32':
    print('''
 \nPSphinxTheme is only tested with Python 3.4.1 or higher:\n  current python version: {0:d}.{1:d}\n\n
 
-TESTED_HOST_OS: {3:}
+TESTED_HOST_OS: {2:}
 '''.format(sys_version_info[:2][0], sys_version_info[:2][1], TESTED_HOST_OS))
 
 # check some untested options
